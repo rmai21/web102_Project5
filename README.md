@@ -1,8 +1,8 @@
-# Web Development Project 5 - *Name of App Here*
+# Web Development Project 5 - *Data Dashboard*
 
 Submitted by: **Rajvi Maisuria**
 
-This web app: **insert description**
+This web app: **Working on displaying data**
 
 Time spent: **X** hours spent in total
 
