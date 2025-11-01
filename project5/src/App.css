@@ -1,68 +1,67 @@
 body {
-  background-color: rgba(200, 144, 238, 0.59);
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
+  background-color: #f5f7fa;
   margin: 0;
-}
-
-.header {
-  color: rgb(90, 26, 90);
-  padding: 2em;
-  size: 50px;
-  font-family: 'Brush Script MT', cursive;
-  background-color: white;
-}
-
-.app {
+  padding: 0;
   text-align: center;
-  padding: 3em;
 }
 
-.search-bar {
-  margin: 2em 0;
-}
-.search-bar input {
-  padding: 0.5em 1em;
-  font-size: 1rem;
-  width: 250px;
-  border: 1px solid rgb(90, 26, 90);
-  border-radius: 8px;
+.title {
+  font-size: 2.5rem;
+  margin-top: 1rem;
 }
 
-.search-bar button {
-  padding: 0.5em 1.2em;
-  margin-left: 10px;
-  background-color: rgb(90, 26, 90);
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #1e88e5;
+}
+
+.navbar a {
   color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.genre-filter {
+  margin: 1rem 0;
+}
+
+.genre-filter button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
   border: none;
-  border-radius: 8px;
+  background-color: #e0e0e0;
   cursor: pointer;
+  border-radius: 6px;
 }
 
-.navbar {
-  background-color: rgb(90, 26, 90);
-  text-align: center;
+.genre-filter button.active {
+  background-color: #1e88e5;
   color: white;
-  font-family:'Courier New', Courier, monospace;
 }
 
 .book-table {
-margin: 0 auto;
   width: 80%;
+  margin: 1rem auto;
   border-collapse: collapse;
   background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.book-table th, .book-table td{
-  border: 1px solid black;
-  padding: 12px;
+.book-table th,
+.book-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
 }
 
 .book-table th {
-  background-color: rgb(90, 26, 90);
+  background-color: #2196f3;
   color: white;
-}
-
-.book-table img {
-  height: 120px;
 }
