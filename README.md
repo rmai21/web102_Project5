@@ -4,7 +4,7 @@ Submitted by: **Rajvi Maisuria**
 
 This web app: **This webapp assists in finding various books from the openAPI: OpenLibrary and creates a data dashboard for your convenience.**
 
-Time spent: **2** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
