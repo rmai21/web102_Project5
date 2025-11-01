@@ -10,38 +10,38 @@ Time spent: **2** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **The site has a dashboard displaying a list of data fetched using an API call**
+- [X] **The site has a dashboard displaying a list of data fetched using an API call**
   - The dashboard should display at least 10 unique items, one per row
   - The dashboard includes at least two features in each row
 - [ ] **`useEffect` React hook and `async`/`await` are used**
-- [ ] **The app dashboard includes at least three summary statistics about the data** 
+- [X] **The app dashboard includes at least three summary statistics about the data** 
   - The app dashboard includes at least three summary statistics about the data, such as:
-    - *insert details here*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
+    - *Genre Filters*
+    - *Author*
+    - *Published Date*
+    - *Book Cover*
+- [X] **A search bar allows the user to search for an item in the fetched data**
   - The search bar **correctly** filters items in the list, only displaying items matching the search query
   - The list of results dynamically updates as the user types into the search bar
-- [ ] **An additional filter allows the user to restrict displayed items by specified categories**
+- [X] **An additional filter allows the user to restrict displayed items by specified categories**
   - The filter restricts items in the list using a **different attribute** than the search bar 
   - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
   - The dashboard list dynamically updates as the user adjusts the filter
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] React routers for the other pages
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<img src='/src/assets/walkthru.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Kap
 
-
 ## Notes
-
-Describe any challenges encountered while building the app.
+Had a lot of challenges, figuring out the API. Had challenges figuring out teh react-routers but I chose to focus everything on app.jsx for now and will fix it for the next project assignment.
 
 ## License
 
