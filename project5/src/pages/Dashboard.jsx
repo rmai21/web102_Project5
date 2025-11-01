@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import BookTable from "../components/BookTable";
-import GenreFilter from "../components/GenreFilter";
+import GenreFilter from "../components/";
 import SearchBar from "../components/SearchBar";
 
 export default function Dashboard() {
