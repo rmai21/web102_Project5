@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  background-color: rgba(200, 144, 238, 0.59);
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
+.header {
+  color: rgb(90, 26, 90);
   padding: 2em;
+  size: 50px;
+  font-family: 'Brush Script MT', cursive;
+  background-color: white;
 }
 
-.read-the-docs {
-  color: #888;
+.app {
+  text-align: center;
+  padding: 3em;
+}
+
+.search-bar {
+  margin: 2em 0;
+}
+.search-bar input {
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  width: 250px;
+  border: 1px solid rgb(90, 26, 90);
+  border-radius: 8px;
+}
+
+.search-bar button {
+  padding: 0.5em 1.2em;
+  margin-left: 10px;
+  background-color: rgb(90, 26, 90);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: rgb(90, 26, 90);
+  text-align: center;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.book-table {
+margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-table th, .book-table td{
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.book-table th {
+  background-color: rgb(90, 26, 90);
+  color: white;
+}
+
+.book-table img {
+  height: 120px;
 }

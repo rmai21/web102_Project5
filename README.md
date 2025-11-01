@@ -2,9 +2,9 @@
 
 Submitted by: **Rajvi Maisuria**
 
-This web app: **Working on displaying data**
+This web app: **This webapp assists in finding various books from the openAPI: OpenLibrary and creates a data dashboard for your convenience.**
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
@@ -25,13 +25,6 @@ The following **required** functionality is completed:
   - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
   - The dashboard list dynamically updates as the user adjusts the filter
 
-The following **optional** features are implemented:
-
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [ ] The user can enter specific bounds for filter values
-
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
@@ -40,14 +33,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
+GIF created with Kap
+
 
 ## Notes
 
@@ -55,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Rajvi Maisuria]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
