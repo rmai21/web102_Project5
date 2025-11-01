@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import BookTable from "../components/BookTable";
-import GenreFilter from "../components/";
+import GenreFilter from "../components/GenreFilter";
 import SearchBar from "../components/SearchBar";
 
 export default function Dashboard() {
@@ -12,7 +12,7 @@ export default function Dashboard() {
     async function fetchBooks() {
       const subject =
         genre === "Action/Adventure"
-          ? "action"
+          ? "action"     
           : genre === "Romance"
           ? "romance"
           : "education";
